@@ -68,11 +68,3 @@ T& SafeArray<T>::operator[](unsigned int index)
 	return array[index];
 }
 
-template<class T>
-void SafeArray<T>::erase()
-{
-	delete[] array;
-	array_size = 0;
-}
-
-

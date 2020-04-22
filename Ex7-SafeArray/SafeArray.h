@@ -59,15 +59,6 @@ public:
 	* @return this function has no return value
 	* @author  Liri
 	*/
-	void erase();
-	/**
-	* @brief  erase the array, and release the memory
-	* @param  This function has no input/output oarameters
-	* @notes  the array change in such way it deleted, all the memory release,
-	*		  and the size of the array reduce to zero
-	* @return this function has no return value
-	* @author  Liri
-	*/
 	bool resize_array(unsigned int new_size,
 		unsigned int stop_fill_array);
 	/**
