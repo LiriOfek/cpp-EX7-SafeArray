@@ -18,6 +18,13 @@ SafeArray<T>::SafeArray()
 }
 
 template<class T>
+SafeArray<T>::~SafeArray() {
+	delete[] array;
+	array_size = 0;
+}
+
+
+template<class T>
 bool SafeArray<T>::resize_array(unsigned int new_size, unsigned int stop_fill_array) {
 	T * new_array = new T[new_size];
 	if (nullptr == new_array) {

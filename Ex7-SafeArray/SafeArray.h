@@ -25,7 +25,15 @@ public:
 	* @notes  init the array and the size of the array to zero
 	* @author  Liri
 	*/
-
+	~SafeArray();
+	/**
+	* @brief  distractor that delete automaticly the array, and equate to zero
+	*			the size
+	* @param  this function has no input/output parameters
+	* @return this function has no return value
+	* @notes  disractor - delete automaticly the array, and equate to zero the size
+	* @author  Liri
+	*/
 	unsigned int size() const;
 	/**
 	* @brief  get the size of the array
